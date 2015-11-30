@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/showfactvault"
+          android:orderInCategory="1"
+          android:title="Your Starred Facts" />
+    
+    <item android:id="@+id/share_whatsapp"
+          android:orderInCategory="2"
+          android:title="Surprise them" />
+    
+    <item android:id="@+id/about_app"
+          android:orderInCategory="3"
+          android:title="About app" />
+    
+    <item android:id="@+id/app_settings"
+          android:orderInCategory="3"
+          android:title="App Settings" />
+    
+    <item android:id="@+id/app_feedback"
+          android:orderInCategory="4"
+          android:title="Feedback" />
+    
+    <item
+            android:id="@+id/menu_item_share"
+            android:showAsAction="ifRoom"
+            android:title="Share"
+            android:actionProviderClass="android.widget.ShareActionProvider" />
+   
+    <item android:id="@+id/star_it"
+          android:showAsAction="ifRoom"
+          android:icon="@drawable/starfact"
+          android:title="Star" />
+    
+</menu>
